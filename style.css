@@ -819,6 +819,44 @@ nav {
     height: 8rem;
 }
 
+.subsecao-rodape, .subsecao-cursosonline,
+.subsecao-assistente, .rodape-div-iconelink,
+.rodape-coluna {
+    display: flex;
+    flex-flow: column;
+}
+
+.subsecao-rodape{
+    gap: 1.6rem;
+}
+
+.subsecao-cursosonline {
+    gap: 1.28rem;
+}
+
+.subsecao-assistente {
+    gap: 1.02rem;
+}
+
+.rodape-iconelink {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.rodape-div-iconelink {
+    gap: 0.65rem;
+}
+
+.rodape-redes {
+    display: flex;
+    gap: 0.82rem;
+}
+
+.rodape-coluna {
+    gap: 3.12rem;
+}
+
 .titulo-footer,
 .subtitulo-footer,
 .seg-subtitulo-footer {
@@ -832,11 +870,27 @@ footer svg:hover {
     fill: #f60;
 }
 
+.link-redes svg {
+    fill: #404040;
+    stroke: #404040;
+}
+
 .link-redes:link,
 .link-redes:visited,
 .link-redes:hover,
 .link-redes:active {
-    color: transparent !important;
+    color: transparent;
+}
+
+.container-footer {
+    width: 106rem;
+    display: flex;
+    align-items: start;
+    gap: 4.88rem;
+}
+
+.rodape-copyright {
+    text-align: center;
 }
 
 .container-footer a {
@@ -850,6 +904,10 @@ footer svg:hover {
 }
 
 .form-newsletter {
+    display: flex;
+    flex-flow: column;
+    gap: 1.6rem;
+    align-items: center;
     box-shadow: inset 0 0 0.8rem 0.15rem rgba(0, 0, 0, 0.15);
     padding: 2.5rem;
     border-radius: 3rem;
